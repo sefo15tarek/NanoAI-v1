@@ -2,7 +2,7 @@ import Constants from 'expo-constants';
 import axios from 'axios';
 
 // Placeholder URL - User should replace this with their actual raw GitHub URL
-const VERSION_JSON_URL = 'https://raw.githubusercontent.com/seif-dev/nanoai-version/main/version.json';
+const VERSION_JSON_URL = 'https://raw.githubusercontent.com/sefo15tarek/NanoAI-v1/main/version.json';
 
 export const checkVersion = async () => {
   try {
